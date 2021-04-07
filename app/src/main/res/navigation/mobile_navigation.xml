@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_bbc">
+
+    <fragment
+        android:id="@+id/nav_lokmat"
+        android:name="com.relativecoding.newsapp.ui.lokmat.LokmatFragment"
+        android:label="@string/lokmat"
+        tools:layout="@layout/fragment_lokmat" />
+
+    <fragment
+        android:id="@+id/nav_sakal"
+        android:name="com.relativecoding.newsapp.ui.sakal.SakalFragment"
+        android:label="@string/sakal"
+        tools:layout="@layout/fragment_sakal" />
+
+    <fragment
+        android:id="@+id/nav_divya_marathi"
+        android:name="com.relativecoding.newsapp.ui.divyaMarathi.DivyaMarathiFragment"
+        android:label="@string/divya_marathi"
+        tools:layout="@layout/fragment_divya_marathi" />
+    <fragment
+        android:id="@+id/nav_loksatta"
+        android:name="com.relativecoding.newsapp.ui.loksatta.LoksattaFragment"
+        android:label="Loksatta"
+        tools:layout="@layout/fragment_loksatta" />
+    <fragment
+        android:id="@+id/nav_punya_nagri"
+        android:name="com.relativecoding.newsapp.ui.punyaNagari.PunyaNagariFragment"
+        android:label="Punya Nagari"
+        tools:layout="@layout/fragment_punya_nagari" />
+    <fragment
+        android:id="@+id/nav_bbc"
+        android:name="com.relativecoding.newsapp.ui.BbcFragment"
+        android:label="BBC Marathi"
+        tools:layout="@layout/fragment_bbc" />
+</navigation>
