@@ -5,7 +5,7 @@ import android.graphics.Bitmap;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-
+//By Jay Dave
 public class WebViewController extends WebViewClient {
 
     ProgressDialog progressDialog;

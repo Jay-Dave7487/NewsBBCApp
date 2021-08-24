@@ -15,7 +15,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 
 import com.relativecoding.newsapp.R;
-
+//By Jay Dave
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link BbcFragment#newInstance} factory method to
@@ -73,7 +73,7 @@ public class BbcFragment extends Fragment {
         View view= inflater.inflate(R.layout.fragment_bbc, container, false);
 
         webView=view.findViewById(R.id.wvBbc);
-        webView.loadUrl("https://www.bbc.com/marathi/");
+        webView.loadUrl("https://www.bbc.com/english/");
         webView.setWebViewClient(new WebViewController());
 //        webView.setWebChromeClient(new WebChromeClient());
 
